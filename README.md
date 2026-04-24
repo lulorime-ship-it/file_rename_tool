@@ -2,6 +2,11 @@
 
 A powerful tool to merge multiple PDF files into one, built with PySide6 for a modern GUI experience.
 
+## GitHub Repository
+
+- **GitHub**: [https://github.com/lulorime-ship-it/PDFMerger](https://github.com/lulorime-ship-it/PDFMerger)
+
+
 ## Features
 
 - **Modern GUI**: Built with PySide6 for a clean, responsive interface
