@@ -1,87 +1,86 @@
-# PDF Merger Tool
+# PDF 合并工具
 
-A powerful tool to merge multiple PDF files into one, built with PySide6 for a modern GUI experience.
+一个强大的工具，用于将多个 PDF 文件合并为一个，使用 PySide6 构建现代化的 GUI 体验。
 
-## GitHub Repository
+## GitHub 仓库
 
 - **GitHub**: [https://github.com/lulorime-ship-it/PDFMerger](https://github.com/lulorime-ship-it/PDFMerger)
 
+## 功能
 
-## Features
+- **现代化 GUI**：使用 PySide6 构建，界面干净、响应迅速
+- **文件管理**：添加多个 PDF 文件或整个文件夹
+- **文件排序**：使用上下移动按钮重新排序文件
+- **页面范围选择**：从每个 PDF 中选择特定页面
+- **PDF 属性设置**：设置标题、作者、主题和关键词
+- **实时预览**：查看 PDF 页面并进行导航
+- **进度条**：合并过程中的视觉进度指示器
+- **键盘快捷键**：快速访问常用功能
+- **捐献支持**：多种加密货币选项
 
-- **Modern GUI**: Built with PySide6 for a clean, responsive interface
-- **File Management**: Add multiple PDF files or entire folders
-- **File Sorting**: Reorder files using move up/down buttons
-- **Page Range Selection**: Select specific pages from each PDF
-- **PDF Properties**: Set title, author, subject, and keywords
-- **Real-time Preview**: View PDF pages with navigation
-- **Progress Bar**: Visual progress indicator during merging
-- **Keyboard Shortcuts**: Quick access to common functions
-- **Donation Support**: Multiple cryptocurrency options
-
-## Requirements
+## 要求
 
 - Python 3.13+
 - PySide6
 - pypdf
 
-## Installation
+## 安装
 
-1. **Install Python 3.13+** from [python.org](https://www.python.org/downloads/)
+1. **安装 Python 3.13+** 从 [python.org](https://www.python.org/downloads/)
 
-2. **Install dependencies**:
+2. **安装依赖**：
    ```bash
    pip install pyside6 pypdf
    ```
 
-3. **Download the project files**:
-   - `pdf_merger.py` - Main application
-   - `run_pdf_merger.bat` - Run script
-   - `erweima/` - Donation QR codes
+3. **下载项目文件**：
+   - `pdf_merger.py` - 主应用程序
+   - `run_pdf_merger.bat` - 运行脚本
+   - `erweima/` - 捐献二维码
 
-## Usage
+## 使用方法
 
-### Method 1: Double-click to run
-- Double-click `run_pdf_merger.bat`
+### 方法 1：双击运行
+- 双击 `run_pdf_merger.bat`
 
-### Method 2: Command line
-- Open terminal in project directory
-- Run: `python pdf_merger.py`
+### 方法 2：命令行
+- 在项目目录中打开终端
+- 运行：`python pdf_merger.py`
 
-## Keyboard Shortcuts
+## 键盘快捷键
 
-- `Ctrl+O`: Add PDF files
-- `Ctrl+F`: Add folder
-- `Delete`: Remove selected files
-- `Ctrl+Up`: Move file up
-- `Ctrl+Down`: Move file down
-- `Ctrl+A`: Select all files
-- `Ctrl+Shift+C`: Clear all files
-- `Ctrl+M`: Merge PDFs
-- `F1`: Show help
-- `Ctrl+Q`: Exit program
+- `Ctrl+O`：添加 PDF 文件
+- `Ctrl+F`：添加文件夹
+- `Delete`：删除选中的文件
+- `Ctrl+Up`：向上移动文件
+- `Ctrl+Down`：向下移动文件
+- `Ctrl+A`：选择所有文件
+- `Ctrl+Shift+C`：清除所有文件
+- `Ctrl+M`：合并 PDFs
+- `F1`：显示帮助
+- `Ctrl+Q`：退出程序
 
-## Page Range Format
+## 页面范围格式
 
-- Leave empty to include all pages
-- Single page: `5`
-- Range of pages: `1-3`
-- Multiple pages: `1,3,5`
-- Mixed format: `1-3,5,7-9`
+- 留空表示包含所有页面
+- 单个页面：`5`
+- 页面范围：`1-3`
+- 多个页面：`1,3,5`
+- 混合格式：`1-3,5,7-9`
 
-## Donation
+## 捐献
 
-Support the development by donating:
+通过捐献给开发提供支持：
 
-- **XMR**: 4DSQMNzzq46N1z2pZWAVdeA6JvUL9TCB2bnBiA3ZzoqEdYJnMydt5akCa3vtmapeDsbVKGPFdNkzzqTcJS8M8oyK7WGj5qMvNZRw61w6wMF
-- **USDT (TRC20)**: TG6DCBoQszDxc64owRZKkSHqZfcAQrqR8uM
-- **USDT (ERC20)**: 0x4323d39BA9b6Bd0570920e63a8D3a192b4459330
+- **XMR**：4DSQMNzzq46N1z2pZWAVdeA6JvUL9TCB2bnBiA3ZzoqEdYJnMydt5akCa3vtmapeDsbVKGPFdNkzzqTcJS8M8oyK7WGj5qMvNZRw61w6wMF
+- **USDT (TRC20)**：TG6DCBoQszDxc64owRZKkSHqZfcAQrqR8uM
+- **USDT (ERC20)**：0x4323d39BA9b6Bd0570920e63a8D3a192b4459330
 
-## Author
+## 作者
 
-- **Name**: Lorime
-- **Email**: lorime@126.com
+- **姓名**：Lorime
+- **邮箱**：lorime@126.com
 
-## Version
+## 版本
 
 1.0
