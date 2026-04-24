@@ -1,0 +1,19 @@
+# Git Ignore File
+
+# Build directories
+dist/
+build/
+
+# Spec files
+*.spec
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Executable files
+*.exe
+
+# Old files
+pdf_merger_pyside6.py
+pdf_merger_pyside6.spec
