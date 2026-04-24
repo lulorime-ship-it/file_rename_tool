@@ -141,6 +141,18 @@ MIT License
 
 ---
 
+## Donations
+
+Support development with donations:
+
+- **XMR**: 4DSQMNzzq46N1z2pZWAVdeA6JvUL9TCB2bnBiA3ZzoqEdYJnMydt5akCa3vtmapeDsbVKGPFdNkzzqTcJS8M8oyK7WGj5qMvNZRw61w6wMF
+- **USDT (TRC20)**: TG6DCBoQszDxc64owRZKkSHqZfcAQrqR8uM
+- **USDT (ERC20)**: 0x4323d39BA9b6Bd0570920e63a8D3a192b4459330
+
+![QR Codes](erweima/xmr.jpg "XMR") ![QR Codes](erweima/usdt-tr20.jpg "USDT TRC20") ![QR Codes](erweima/usdt-erc20.jpg "USDT ERC20")
+
+---
+
 ## About
 
 File Rename Tool is a simple and efficient batch renaming tool designed for users who frequently work with files.
